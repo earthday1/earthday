@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="Image/png" href="Img\favicon.png">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<title>Contact</title>
+</head>
+<body>
+	<section>
+	<div class="container">
+		<form action="https://formspree.io/f/mayakvrl"  method="POST" id="my-form">
+			
+
+			<div class="form-group">
+				<label for="firstname">First Name</label>
+				<input type="text" id="firstname" name="firstname">
+			</div>
+
+			<div class="form-group">
+				<label for="lastname">Last Name</label>
+				<input type="text" id="lastname" name="lastname">
+			</div>
+
+			<div class="form-group">
+				<lable for="email">Email</lable>
+				<input type="email" id="email" name="email">
+			</div>
+			<div class="form-group">
+				<lable for="message">Message</lable>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+			</div>
+			<button type="submit">
+				 Submit
+			</button>
+		</form>
+	</div>
+	<div id="status"></div>
+</section>
+<script src="JS/main.js"></script>
+</body>
+</html>
